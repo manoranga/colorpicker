@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#F5F5F5</color>
+    <color name="drag_view_color">#C4C4C6</color>
+
+    <color name="color_picker_background">#18191A</color>
+    <color name="bottom_icon">#666666</color>
+    <color name="magic_view_bottom">#F5F5F5</color>
+    <color name="themColor">#1874EE</color>
+    <color name="color_pallets_title">#333333</color>
+    <color name="color_pallets_minimize_button_color">#C4C4C6</color>
+    <color name="themColor1">#deab1f</color>
+
+    <color name="ripple_1">#aaaaaa</color>
+    <color name="ripple_2">#8B8B8B</color>
+
+    <color name="selected_blue">#58A1FF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAsh">#EBEBEB</color>
+    <color name="black">#000000</color>
+</resources>

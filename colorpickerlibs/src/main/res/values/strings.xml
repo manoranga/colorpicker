@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DARK_AND_EARTHY">Dark &amp; Earthy</string>
+    <string name="SKIN">Skin</string>
+    <string name="WARM">Warm</string>
+    <string name="COOL_BLUE">Cool Blue</string>
+    <string name="REFRESHING">Refreshing</string>
+    <string name="WATERY_BLUE">Watery Blue-Greens</string>
+    <string name="OUTDOORS_NATURE">Outdoors &amp; Nature</string>
+    <string name="SHADES_OF_PURPLE">Shades of Purple</string>
+    <string name="SHADES_OF_GREY">Shades of Grey</string>
+    <string name="BRIGHT_ORANGE_COLOR">Bright Orange Color</string>
+    <string name="USA_COLOR">USA Color</string>
+    <string name="RECENT_COLORS">Recent Colors</string>
+
+    // COLOR PICKER
+    <string name="CANT_DELETE_PALETTE_MESSAGE">Cannot delete default palette</string>
+    <string name="UNTITLED_PALETTE">Untitled Palette</string>
+    <string name="HEXA_DECIMAL">Hexadecimal</string>
+    <string name="DELETE_PALETTE_MESSAGE">Are you sure you want to delete the color palette?</string>
+    <string name="YES">YES</string>
+    <string name="NO">No</string>
+    <string name="OK">Ok</string>
+
+    <string name="GRADIENTES_TEXT">Gradients</string>
+    <string name="SOLID_COLORS_TEXT">Solid Colors</string>
+    <string name="DD_PALETTES_TEXT">DD Palettes</string>
+    <string name="MY_PALETTES">My Palettes</string>
+    <string name="DEFAULT_TEXT">Default</string>
+    <string name="SET_DEFAULT_TEXT">Set Default</string>
+    <string name="CANNOT_DELETE_DEFAULT_PALETTE">Cannot delete default palette</string>
+    <string name="WARNING">Warning</string>
+
+
+</resources>

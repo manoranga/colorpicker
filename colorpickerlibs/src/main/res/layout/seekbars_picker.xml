@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/linearColorPickerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/paletteViewTopContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="@dimen/margin_left_right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/seekBarContainerView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="H"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+
+                        <LinearLayout
+                            android:id="@+id/tvValueHContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueH"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="S"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarS"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:id="@+id/tvValueSContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueS"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="L"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarL"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:id="@+id/tvValueLContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueL"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameR"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="R"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarR"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="8"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:id="@+id/tvValueRContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueR"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="G"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarG"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:id="@+id/tvValueGContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueG"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvNameB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/museo_sans_rounded_500"
+                            android:text="B"
+                            android:textColor="@color/color_pallets_title"
+                            android:textSize="15sp" />
+
+                        <SeekBar
+                            android:id="@+id/seekBarB"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:maxHeight="6dp"
+                            android:minHeight="6dp"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:id="@+id/tvValueBContainer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                            android:paddingStart="5dp">
+
+                            <com.pmr.colorpickerlibs.utils.common.DoubleTapEditTextColorPicker
+                                android:id="@+id/tvValueB"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/museo_sans_rounded_500"
+                                android:gravity="center"
+                                android:imeOptions="flagNoExtractUi|actionDone"
+                                android:inputType="number"
+                                android:paddingStart="5dp"
+                                android:singleLine="true"
+                                android:text="L"
+                                android:textColor="@color/color_pallets_title"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/hexadecimalContainer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/museo_sans_rounded_500"
+                    android:gravity="center_vertical"
+                    android:text="@string/HEXA_DECIMAL"
+                    android:textColor="@color/color_pallets_title"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:id="@+id/etHexadecimalContainer"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/all_round_conner_background_color_picker_white_5dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/museo_sans_rounded_500"
+                        android:gravity="center_vertical|end"
+                        android:text="#"
+                        android:textColor="@color/color_pallets_title"
+                        android:textSize="15sp" />
+
+                    <com.pmr.colorpickerlibs.utils.common.DoubleClickEditText
+                        android:id="@+id/etHexadecimal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@drawable/white_rounded_black_stroke_bg"
+                        android:fontFamily="@font/museo_sans_rounded_500"
+                        android:gravity="center_vertical"
+                        android:imeOptions="flagNoExtractUi|actionDone"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="6"
+                        android:singleLine="true"
+                        android:text="FFFFFF"
+                        android:textColor="@color/color_pallets_title"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

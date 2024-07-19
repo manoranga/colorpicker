@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_left_right">8dp</dimen>
+    <dimen name="color_picker_top_bar_height">32dp</dimen>
+
+    <dimen name="cp_seekbar_thumb_size_tab_view_2">18dp</dimen>
+
+    <dimen name="cp_seekbar_thumb_size_tab_start_tacking">26dp</dimen>
+
+    <dimen name="cp_seekbar_thumb_size_tab">16dp</dimen>
+
+    <dimen name="cp_color_wheel_thumb_size_tab">20dp</dimen>
+
+    <dimen name="cp_seekbar_thumb_size_phone">20dp</dimen>
+    <dimen name="cp_color_wheel_thumb_size_phone">22dp</dimen>
+</resources>

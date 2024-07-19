@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="ColorPickerView">
+    <attr name="palette" format="reference" />
+    <attr name="selector" format="reference" />
+    <attr name="alpha_selector" format="float" />
+    <attr name="alpha_flag" format="float" />
+    <attr name="preferenceName" format="string" />
+    <attr name="actionMode" format="enum">
+      <enum name="always" value="0" />
+      <enum name="last" value="1" />
+    </attr>
+  </declare-styleable>
+  <declare-styleable name="AlphaSlideBar">
+    <attr name="selector_AlphaSlideBar" format="reference" />
+    <attr name="borderColor_AlphaSlideBar" format="color" />
+    <attr name="borderSize_AlphaSlideBar" format="integer" />
+  </declare-styleable>
+  <declare-styleable name="BrightnessSlideBar">
+    <attr name="selector_BrightnessSlider" format="reference" />
+    <attr name="borderColor_BrightnessSlider" format="color" />
+    <attr name="borderSize_BrightnessSlider" format="integer" />
+  </declare-styleable>
+  <declare-styleable name="AlphaTileView">
+    <attr name="tileSize" format="integer" />
+    <attr name="tileOddColor" format="color" />
+    <attr name="tileEvenColor" format="color" />
+  </declare-styleable>
+
+
+  <declare-styleable name="ColorPicker"><attr format="color" name="handleStrokeColor"/><attr format="float" name="hue"/><attr format="float" name="saturation"/><attr format="float" name="value"/></declare-styleable>
+  <declare-styleable name="RingColorPicker"><attr format="dimension" name="ringWidth"/><attr format="dimension" name="gapWidth"/></declare-styleable>
+  <!-- From: file:/home/jitpack/build/lib/src/main/res/values/dimen.xml -->
+  <eat-comment/>
+  <dimen name="default_handleSize">32dp</dimen>
+  <dimen name="default_padding">16dp</dimen>
+  <dimen name="default_touchSize">48dp</dimen>
+  <!-- From: file:/home/jitpack/build/lib/src/main/res/values/strings.xml -->
+  <eat-comment/>
+
+  <eat-comment/>
+  <style name="HSVLinearColorPicker">
+    <item name="android:padding">5dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0dp</item>
+  </style>
+
+</resources>

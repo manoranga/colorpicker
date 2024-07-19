@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.pmr.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView
+            android:id="@+id/linearColorPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        </com.pmr.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/background_color"
+        android:layout_marginLeft="@dimen/margin_left_right"
+        android:layout_marginRight="@dimen/margin_left_right"
+        android:layout_marginTop="@dimen/margin_left_right"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/recentColorsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvColorTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/color_picker_top_bar_height"
+                android:layout_margin="@dimen/margin_left_right"
+                android:ellipsize="end"
+                android:fontFamily="@font/museo_sans_rounded_500"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/RECENT_COLORS"
+                android:textColor="@color/color_pallets_title"
+                android:textSize="15sp">
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/background_color">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/colorPaletteRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAsh">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
