@@ -39,56 +39,6 @@ android {
 
 }
 
-afterEvaluate {
-    println("Available components: ${components.names.joinToString()}")
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                val releaseComponent = components.findByName("release")
-                if (releaseComponent != null) {
-                    from(releaseComponent)
-                } else {
-                    logger.warn("Release component not found")
-                }
-
-                groupId = project.findProperty("POM_GROUP_ID") as String
-                artifactId = project.findProperty("POM_ARTIFACT_ID") as String
-                version = project.findProperty("POM_VERSION") as String
-
-                pom {
-                    name.set("Android Color Picker")
-                    description.set("A brief description of your library")
-                    url.set("https://github.com/manoranga/colorpicker")
-
-                    licenses {
-                        license {
-                            name.set("The Apache License, Version 2.0")
-                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-                        }
-                    }
-
-                    developers {
-                        developer {
-                            id.set("manoranga")
-                            name.set("Prabodha Ranasinghe")
-                            email.set("prabodhamanoranga@gmail.com")
-                        }
-                    }
-
-                    scm {
-                        connection.set("scm:git:git://github.com//manoranga/colorpicker.git")
-                        developerConnection.set("scm:git:ssh://github.com:/manoranga/colorpicker.git")
-                        url.set("https://github.com//manoranga/colorpicker")
-                    }
-                }
-            }
-        }
-    }
-    signing {
-        sign(publishing.publications["release"])
-    }
-
-}
 
 dependencies {
 
