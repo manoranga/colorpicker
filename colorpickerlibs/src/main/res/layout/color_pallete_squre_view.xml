@@ -21,7 +21,7 @@
             app:cardElevation="0dp"
             app:cardCornerRadius="5dp">
 
-            <com.pmr.colorpickerlibs.utils.squarecolorpikcer.SquareColorPicker
+            <com.example.colorpickerlibs.utils.squarecolorpikcer.SquareColorPicker
                 android:id="@+id/colorPickerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

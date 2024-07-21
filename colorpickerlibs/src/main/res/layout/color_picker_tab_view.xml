@@ -139,13 +139,13 @@
         </RelativeLayout>
 
 
-        <com.pmr.colorpickerlibs.utils.defaultpallets.DefaultPalletsView
+        <com.example.colorpickerlibs.utils.defaultpallets.DefaultPalletsView
             android:id="@+id/defaultPalletViewContainer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:visibility="gone">
 
-        </com.pmr.colorpickerlibs.utils.defaultpallets.DefaultPalletsView>
+        </com.example.colorpickerlibs.utils.defaultpallets.DefaultPalletsView>
 
 
     </RelativeLayout>

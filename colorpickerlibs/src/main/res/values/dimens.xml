@@ -13,4 +13,6 @@
 
     <dimen name="cp_seekbar_thumb_size_phone">20dp</dimen>
     <dimen name="cp_color_wheel_thumb_size_phone">22dp</dimen>
+
+    <dimen name="margin_bottom_seek_bars_tab">24dp</dimen>
 </resources>

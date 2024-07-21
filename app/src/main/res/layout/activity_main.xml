@@ -13,13 +13,13 @@
     </RelativeLayout>
 
 
-    <com.pmr.colorpickerlibs.ColorPickerTabView
+    <com.example.colorpickerlibs.ColorPickerTabView
         android:id="@+id/colorPickerTab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-    </com.pmr.colorpickerlibs.ColorPickerTabView>
+    </com.example.colorpickerlibs.ColorPickerTabView>
 
 
 </RelativeLayout>

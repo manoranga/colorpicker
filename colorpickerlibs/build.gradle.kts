@@ -1,12 +1,9 @@
 plugins {
     id("com.android.library")
-    id("maven-publish")
-    id("signing")
-
 }
 
 android {
-    namespace = "com.pmr.colorpickerlibs"
+    namespace = "com.example.colorpickerlibs"
     compileSdk = 34
 
     defaultConfig {
@@ -24,9 +21,6 @@ android {
                 "proguard-rules.pro"
             )
         }
-        debug {
-            isMinifyEnabled = false
-        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -36,9 +30,7 @@ android {
         viewBinding = true
     }
 
-
 }
-
 
 dependencies {
 
@@ -49,5 +41,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 
     implementation("com.google.code.gson:gson:2.11.0")
-    implementation("androidx.databinding:databinding-runtime:4.1.3")
+    implementation ("androidx.databinding:databinding-runtime:4.1.3")
 }

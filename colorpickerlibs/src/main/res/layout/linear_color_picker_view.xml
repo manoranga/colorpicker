@@ -11,13 +11,13 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.pmr.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView
+        <com.example.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView
             android:id="@+id/linearColorPicker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
-        </com.pmr.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView>
+        </com.example.colorpickerlibs.utils.seekbarscolorpicker.SeekBarsLinearColorPickerView>
 
     </RelativeLayout>
 
@@ -27,7 +27,7 @@
         app:cardBackgroundColor="@color/background_color"
         android:layout_marginLeft="@dimen/margin_left_right"
         android:layout_marginRight="@dimen/margin_left_right"
-        android:layout_marginTop="@dimen/margin_left_right"
+        android:layout_marginTop="@dimen/margin_bottom_seek_bars_tab"
         app:cardCornerRadius="10dp"
         app:cardElevation="0dp">
 

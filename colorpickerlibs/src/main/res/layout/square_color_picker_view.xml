@@ -12,13 +12,13 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.pmr.colorpickerlibs.utils.squarecolorpikcer.SquareColorPickerView
+        <com.example.colorpickerlibs.utils.squarecolorpikcer.SquareColorPickerView
             android:id="@+id/squareColorPickerView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
-        </com.pmr.colorpickerlibs.utils.squarecolorpikcer.SquareColorPickerView>
+        </com.example.colorpickerlibs.utils.squarecolorpikcer.SquareColorPickerView>
 
     </RelativeLayout>
 

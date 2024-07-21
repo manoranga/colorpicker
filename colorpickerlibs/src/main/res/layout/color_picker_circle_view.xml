@@ -4,6 +4,7 @@
     android:layout_width="400dp"
     android:layout_height="400dp"
     android:animateLayoutChanges="true"
+    android:layout_gravity="center"
     android:background="@android:color/transparent"
     android:orientation="vertical">
 
@@ -14,21 +15,21 @@
         android:background="@android:color/transparent"
         android:gravity="center">
 
-        <com.pmr.colorpickerlibs.utils.ringcolorpicker.RingColorPickerOuterCircle
+        <com.example.colorpickerlibs.utils.ringcolorpicker.RingColorPickerOuterCircle
             android:id="@+id/outerCircleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-        </com.pmr.colorpickerlibs.utils.ringcolorpicker.RingColorPickerOuterCircle>
+        </com.example.colorpickerlibs.utils.ringcolorpicker.RingColorPickerOuterCircle>
 
-        <com.pmr.colorpickerlibs.utils.ringcolorpicker.ColorPickerHSLView
+        <com.example.colorpickerlibs.utils.ringcolorpicker.ColorPickerHSLView
             android:id="@+id/hslView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="visible"
             android:layout_centerInParent="true">
 
-        </com.pmr.colorpickerlibs.utils.ringcolorpicker.ColorPickerHSLView>
+        </com.example.colorpickerlibs.utils.ringcolorpicker.ColorPickerHSLView>
 
     </RelativeLayout>
 

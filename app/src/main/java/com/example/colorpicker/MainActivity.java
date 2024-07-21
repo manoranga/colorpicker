@@ -8,9 +8,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.pmr.colorpickerlibs.ColorPickerTabView;
-import com.pmr.colorpickerlibs.models.ColorModel;
-import com.pmr.colorpickerlibs.utils.interfaces.LoggingUserColorPalettesSyncAndDeleteListener;
+import com.example.colorpickerlibs.ColorPickerTabView;
+import com.example.colorpickerlibs.models.ColorModel;
+import com.example.colorpickerlibs.utils.interfaces.LoggingUserColorPalettesSyncAndDeleteListener;
 
 import java.util.ArrayList;
 
@@ -27,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
         colorPickerTab = findViewById(R.id.colorPickerTab);
         pickedClor = findViewById(R.id.pickedClor);
 
-        colorPickerTab.setViewWidthAndHeight(2560, 1600);
+        pickedClor.setOnClickListener(view -> {
+            colorPickerTab.setViewWidthAndHeight(2560, 1600,true);
+        });
+
+        colorPickerTab.setViewWidthAndHeight(2560, 1600,false);
         int currentColor = Color.parseColor("#dbc486");
         colorPickerTab.setSelectedColorInit(currentColor, color -> {
             pickedClor.setBackgroundColor(color);

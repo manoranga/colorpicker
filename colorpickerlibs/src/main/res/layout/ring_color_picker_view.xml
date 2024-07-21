@@ -9,15 +9,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:gravity="center"
         android:layout_weight="1">
 
-        <com.pmr.colorpickerlibs.utils.ringcolorpicker.ColorPickerCirCleView
+        <com.example.colorpickerlibs.utils.ringcolorpicker.ColorPickerCirCleView
             android:id="@+id/cricleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
 
-        </com.pmr.colorpickerlibs.utils.ringcolorpicker.ColorPickerCirCleView>
+        </com.example.colorpickerlibs.utils.ringcolorpicker.ColorPickerCirCleView>
 
     </RelativeLayout>
 

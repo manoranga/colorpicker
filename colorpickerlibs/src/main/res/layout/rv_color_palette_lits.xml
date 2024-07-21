@@ -26,7 +26,7 @@
                 android:layout_height="50dp"
                 android:background="@color/colorWhite">
 
-                <com.pmr.colorpickerlibs.utils.common.DoubleClickEditText
+                <com.example.colorpickerlibs.utils.common.DoubleClickEditText
                     android:id="@+id/paletteTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
