@@ -1,0 +1,3356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.2" type="incidents">
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `RelativeLayout` layout or its `FrameLayout` parent is unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_pallete_hsl_view.xml"
+            line="11"
+            column="6"
+            startOffset="418"
+            endLine="11"
+            endColumn="20"
+            endOffset="432"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_pallete_hsl_view.xml"
+            line="32"
+            column="14"
+            startOffset="1292"
+            endLine="32"
+            endColumn="23"
+            endOffset="1301"/>
+    </incident>
+
+    <incident
+        id="RedundantNamespace"
+        severity="warning"
+        message="This namespace declaration is redundant">
+        <fix-attribute
+            description="Delete namespace"
+            attribute="xmlns:android"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_pallete_squre_view.xml"
+            line="11"
+            column="19"
+            startOffset="431"
+            endLine="11"
+            endColumn="77"
+            endOffset="489"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `FrameLayout` parent is unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_pallete_squre_view.xml"
+            line="11"
+            column="6"
+            startOffset="418"
+            endLine="11"
+            endColumn="18"
+            endOffset="430"/>
+    </incident>
+
+    <incident
+        id="UnusedNamespace"
+        severity="warning"
+        message="Unused namespace declaration xmlns:android; already declared on the root element">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_pallete_squre_view.xml"
+            line="11"
+            column="19"
+            startOffset="431"
+            endLine="11"
+            endColumn="77"
+            endOffset="489"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="24"
+            column="14"
+            startOffset="939"
+            endLine="24"
+            endColumn="23"
+            endOffset="948"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="58"
+            column="14"
+            startOffset="2308"
+            endLine="58"
+            endColumn="23"
+            endOffset="2317"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="76"
+            column="14"
+            startOffset="2963"
+            endLine="76"
+            endColumn="26"
+            endOffset="2975"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="153"
+            column="6"
+            startOffset="5535"
+            endLine="153"
+            endColumn="18"
+            endOffset="5547"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="170"
+            column="14"
+            startOffset="6129"
+            endLine="170"
+            endColumn="23"
+            endOffset="6138"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="188"
+            column="14"
+            startOffset="6696"
+            endLine="188"
+            endColumn="23"
+            endOffset="6705"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="206"
+            column="14"
+            startOffset="7264"
+            endLine="206"
+            endColumn="23"
+            endOffset="7273"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="224"
+            column="14"
+            startOffset="7823"
+            endLine="224"
+            endColumn="23"
+            endOffset="7832"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/dialog_alert.xml"
+            line="68"
+            column="18"
+            startOffset="3013"
+            endLine="68"
+            endColumn="30"
+            endOffset="3025"/>
+    </incident>
+
+    <incident
+        id="RelativeOverlap"
+        severity="warning"
+        message="`@id/paletteTitle` can overlap `LinearLayout-3` if @id/paletteTitle grows due to localized text expansion">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="29"
+            column="18"
+            startOffset="1048"
+            endLine="29"
+            endColumn="78"
+            endOffset="1108"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="56"
+            column="26"
+            startOffset="2445"
+            endLine="56"
+            endColumn="35"
+            endOffset="2454"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="64"
+            column="26"
+            startOffset="2857"
+            endLine="64"
+            endColumn="35"
+            endOffset="2866"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="86"
+            column="26"
+            startOffset="3878"
+            endLine="86"
+            endColumn="35"
+            endOffset="3887"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="106"
+            column="26"
+            startOffset="4864"
+            endLine="106"
+            endColumn="35"
+            endOffset="4873"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="124"
+            column="26"
+            startOffset="5796"
+            endLine="124"
+            endColumn="35"
+            endOffset="5805"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_color_palette_lits.xml"
+            line="142"
+            column="26"
+            startOffset="6731"
+            endLine="142"
+            endColumn="35"
+            endOffset="6740"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/rv_item_color_palette.xml"
+            line="11"
+            column="6"
+            startOffset="381"
+            endLine="11"
+            endColumn="15"
+            endOffset="390"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `LinearLayout` parent is possibly unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="47"
+            column="18"
+            startOffset="1773"
+            endLine="47"
+            endColumn="30"
+            endOffset="1785"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="78"
+            column="29"
+            startOffset="3291"
+            endLine="78"
+            endColumn="54"
+            endOffset="3316"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;H&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="69"
+            column="29"
+            startOffset="2847"
+            endLine="69"
+            endColumn="45"
+            endOffset="2863"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="102"
+            column="33"
+            startOffset="4687"
+            endLine="102"
+            endColumn="49"
+            endOffset="4703"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="134"
+            column="29"
+            startOffset="6111"
+            endLine="134"
+            endColumn="54"
+            endOffset="6136"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;S&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="125"
+            column="29"
+            startOffset="5667"
+            endLine="125"
+            endColumn="45"
+            endOffset="5683"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="157"
+            column="33"
+            startOffset="7506"
+            endLine="157"
+            endColumn="49"
+            endOffset="7522"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="186"
+            column="29"
+            startOffset="8927"
+            endLine="186"
+            endColumn="54"
+            endOffset="8952"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="177"
+            column="29"
+            startOffset="8483"
+            endLine="177"
+            endColumn="45"
+            endOffset="8499"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="209"
+            column="33"
+            startOffset="10322"
+            endLine="209"
+            endColumn="49"
+            endOffset="10338"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="238"
+            column="29"
+            startOffset="11743"
+            endLine="238"
+            endColumn="54"
+            endOffset="11768"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;R&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="229"
+            column="29"
+            startOffset="11299"
+            endLine="229"
+            endColumn="45"
+            endOffset="11315"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="261"
+            column="33"
+            startOffset="13131"
+            endLine="261"
+            endColumn="49"
+            endOffset="13147"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="290"
+            column="29"
+            startOffset="14552"
+            endLine="290"
+            endColumn="54"
+            endOffset="14577"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;G&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="281"
+            column="29"
+            startOffset="14108"
+            endLine="281"
+            endColumn="45"
+            endOffset="14124"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="313"
+            column="33"
+            startOffset="15940"
+            endLine="313"
+            endColumn="49"
+            endOffset="15956"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="342"
+            column="29"
+            startOffset="17361"
+            endLine="342"
+            endColumn="54"
+            endOffset="17386"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;B&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="333"
+            column="29"
+            startOffset="16917"
+            endLine="333"
+            endColumn="45"
+            endOffset="16933"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="366"
+            column="33"
+            startOffset="18808"
+            endLine="366"
+            endColumn="49"
+            endOffset="18824"/>
+    </incident>
+
+    <incident
+        id="RelativeOverlap"
+        severity="warning"
+        message="`TextView-1` can overlap `@id/etHexadecimalContainer` if @string/HEXA_DECIMAL grows due to localized text expansion">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="384"
+            column="18"
+            startOffset="19491"
+            endLine="384"
+            endColumn="26"
+            endOffset="19499"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;#&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="408"
+            column="25"
+            startOffset="20709"
+            endLine="408"
+            endColumn="41"
+            endOffset="20725"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;FFFFFF&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker.xml"
+            line="424"
+            column="25"
+            startOffset="21620"
+            endLine="424"
+            endColumn="46"
+            endOffset="21641"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `FrameLayout` layout or its `FrameLayout` parent is possibly unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="7"
+            column="6"
+            startOffset="255"
+            endLine="7"
+            endColumn="17"
+            endOffset="266"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `FrameLayout` parent is possibly unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="14"
+            column="10"
+            startOffset="506"
+            endLine="14"
+            endColumn="22"
+            endOffset="518"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="35"
+            column="22"
+            startOffset="1356"
+            endLine="35"
+            endColumn="34"
+            endOffset="1368"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;HSL&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="56"
+            column="33"
+            startOffset="2518"
+            endLine="56"
+            endColumn="51"
+            endOffset="2536"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="58"
+            column="33"
+            startOffset="2642"
+            endLine="58"
+            endColumn="56"
+            endOffset="2665"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;RGB&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="87"
+            column="33"
+            startOffset="4084"
+            endLine="87"
+            endColumn="51"
+            endOffset="4102"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="89"
+            column="33"
+            startOffset="4208"
+            endLine="89"
+            endColumn="56"
+            endOffset="4231"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="115"
+            column="21"
+            startOffset="5094"
+            endLine="115"
+            endColumn="46"
+            endOffset="5119"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="133"
+            column="25"
+            startOffset="5960"
+            endLine="133"
+            endColumn="50"
+            endOffset="5985"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;H&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="124"
+            column="25"
+            startOffset="5539"
+            endLine="124"
+            endColumn="41"
+            endOffset="5555"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="157"
+            column="29"
+            startOffset="7290"
+            endLine="157"
+            endColumn="45"
+            endOffset="7306"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;S&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="178"
+            column="25"
+            startOffset="8117"
+            endLine="178"
+            endColumn="41"
+            endOffset="8133"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="210"
+            column="29"
+            startOffset="9867"
+            endLine="210"
+            endColumn="45"
+            endOffset="9883"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="228"
+            column="25"
+            startOffset="10691"
+            endLine="228"
+            endColumn="41"
+            endOffset="10707"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="260"
+            column="29"
+            startOffset="12441"
+            endLine="260"
+            endColumn="45"
+            endOffset="12457"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="282"
+            column="21"
+            startOffset="13345"
+            endLine="282"
+            endColumn="46"
+            endOffset="13370"/>
+    </incident>
+
+    <incident
+        id="NestedWeights"
+        severity="warning"
+        message="Nested weights are bad for performance">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="300"
+            column="25"
+            startOffset="14211"
+            endLine="300"
+            endColumn="50"
+            endOffset="14236"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;R&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="291"
+            column="25"
+            startOffset="13790"
+            endLine="291"
+            endColumn="41"
+            endOffset="13806"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="323"
+            column="29"
+            startOffset="15533"
+            endLine="323"
+            endColumn="45"
+            endOffset="15549"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;G&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="341"
+            column="25"
+            startOffset="16357"
+            endLine="341"
+            endColumn="41"
+            endOffset="16373"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="373"
+            column="29"
+            startOffset="18100"
+            endLine="373"
+            endColumn="45"
+            endOffset="18116"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;B&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="391"
+            column="25"
+            startOffset="18924"
+            endLine="391"
+            endColumn="41"
+            endOffset="18940"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="423"
+            column="29"
+            startOffset="20667"
+            endLine="423"
+            endColumn="45"
+            endOffset="20683"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `RelativeLayout` layout or its `LinearLayout` parent is possibly unnecessary">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="436"
+            column="18"
+            startOffset="21095"
+            endLine="436"
+            endColumn="32"
+            endOffset="21109"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;#&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="471"
+            column="29"
+            startOffset="22957"
+            endLine="471"
+            endColumn="45"
+            endOffset="22973"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;FFFFFF&quot;, should use `@string` resource">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/seekbars_picker_minimize.xml"
+            line="487"
+            column="29"
+            startOffset="23937"
+            endLine="487"
+            endColumn="50"
+            endOffset="23958"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="&quot;Ok&quot; is usually capitalized as &quot;OK&quot;">
+        <fix-alternatives>
+            <fix-replace
+                description="Replace with &quot;OK&quot;"
+                oldString="Ok"
+                replacement="OK"/>
+        </fix-alternatives>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="23"
+            column="23"
+            startOffset="1120"
+            endLine="23"
+            endColumn="23"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
+        id="ButtonCase"
+        severity="warning"
+        message="The standard Android way to capitalize Ok is &quot;OK&quot; (tip: use `@android:string/ok` instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="23"
+            column="23"
+            startOffset="1120"
+            endLine="23"
+            endColumn="25"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="73"
+            column="9"
+            startOffset="3245"
+            endLine="73"
+            endColumn="31"
+            endOffset="3267"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="79"
+            column="9"
+            startOffset="3379"
+            endLine="79"
+            endColumn="31"
+            endOffset="3401"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="116"
+            column="21"
+            startOffset="5020"
+            endLine="116"
+            endColumn="43"
+            endOffset="5042"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="130"
+            column="25"
+            startOffset="5716"
+            endLine="130"
+            endColumn="47"
+            endOffset="5738"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="143"
+            column="21"
+            startOffset="6313"
+            endLine="143"
+            endColumn="43"
+            endOffset="6335"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="205"
+            column="21"
+            startOffset="8936"
+            endLine="205"
+            endColumn="43"
+            endOffset="8958"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="373"
+            column="9"
+            startOffset="16181"
+            endLine="373"
+            endColumn="31"
+            endOffset="16203"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="379"
+            column="9"
+            startOffset="16345"
+            endLine="379"
+            endColumn="31"
+            endOffset="16367"/>
+    </incident>
+
+    <incident
+        id="CutPasteId"
+        severity="warning"
+        message="The id `R.id.rvItemContainer` has already been looked up in this method; possible cut &amp; paste error?">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="301"
+            column="50"
+            startOffset="12636"
+            endLine="301"
+            endColumn="93"
+            endOffset="12679"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="276"
+            column="31"
+            startOffset="11621"
+            endLine="276"
+            endColumn="74"
+            endOffset="11664"
+            message="First usage here"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java"
+            line="344"
+            column="17"
+            startOffset="15091"
+            endLine="344"
+            endColumn="39"
+            endOffset="15113"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/adapters/CPRecyclerAdapter.java"
+            line="54"
+            column="9"
+            startOffset="2034"
+            endLine="54"
+            endColumn="31"
+            endOffset="2056"/>
+    </incident>
+
+    <incident
+        id="StaticFieldLeak"
+        severity="warning"
+        message="Do not place Android context classes in static fields (static reference to `CPManager` which has field `context` pointing to `Context`); this is a memory leak">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/managers/CPManager.java"
+            line="17"
+            column="13"
+            startOffset="396"
+            endLine="17"
+            endColumn="19"
+            endOffset="402"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleClickEditText`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java"
+            line="52"
+            column="9"
+            startOffset="1967"
+            endLine="52"
+            endColumn="38"
+            endOffset="1996"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleClickEditText`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java"
+            line="61"
+            column="9"
+            startOffset="2221"
+            endLine="61"
+            endColumn="38"
+            endOffset="2250"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleClickEditText`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java"
+            line="70"
+            column="9"
+            startOffset="2507"
+            endLine="70"
+            endColumn="38"
+            endOffset="2536"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleClickEditText`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java"
+            line="79"
+            column="9"
+            startOffset="2823"
+            endLine="79"
+            endColumn="38"
+            endOffset="2852"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleTapEditTextColorPicker`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java"
+            line="47"
+            column="9"
+            startOffset="1723"
+            endLine="47"
+            endColumn="38"
+            endOffset="1752"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleTapEditTextColorPicker`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java"
+            line="55"
+            column="9"
+            startOffset="1985"
+            endLine="55"
+            endColumn="38"
+            endOffset="2014"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleTapEditTextColorPicker`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java"
+            line="63"
+            column="9"
+            startOffset="2279"
+            endLine="63"
+            endColumn="38"
+            endOffset="2308"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``DoubleTapEditTextColorPicker`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java"
+            line="71"
+            column="9"
+            startOffset="2603"
+            endLine="71"
+            endColumn="38"
+            endOffset="2632"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `getString` to get device identifiers is not recommended">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/MyDevice.java"
+            line="192"
+            column="10"
+            startOffset="5134"
+            endLine="193"
+            endColumn="64"
+            endOffset="5204"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 24">
+        <fix-data conditional="true"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/common/MyDevice.java"
+            line="276"
+            column="7"
+            startOffset="7725"
+            endLine="276"
+            endColumn="63"
+            endOffset="7781"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/defaultpallets/DefaultPalletsView.java"
+            line="103"
+            column="25"
+            startOffset="4214"
+            endLine="103"
+            endColumn="65"
+            endOffset="4254"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/defaultpallets/DefaultPalletsView.java"
+            line="158"
+            column="21"
+            startOffset="6464"
+            endLine="158"
+            endColumn="68"
+            endOffset="6511"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `ColorPickRing` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/ColorPickRing.java"
+            line="111"
+            column="20"
+            startOffset="3158"
+            endLine="111"
+            endColumn="32"
+            endOffset="3170"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `RingColorPickerOuterCircle` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="173"
+            column="20"
+            startOffset="5690"
+            endLine="173"
+            endColumn="32"
+            endOffset="5702"/>
+    </incident>
+
+    <incident
+        id="CustomViewStyleable"
+        severity="warning"
+        message="By convention, the custom view (`RingColorPickerOuterCircle`) and the declare-styleable (`RingColorPicker`) should have the same name (various editor features rely on this convention)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="72"
+            column="67"
+            startOffset="2332"
+            endLine="72"
+            endColumn="94"
+            endOffset="2359"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="112"
+            column="24"
+            startOffset="3482"
+            endLine="112"
+            endColumn="35"
+            endOffset="3493"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="113"
+            column="18"
+            startOffset="3512"
+            endLine="113"
+            endColumn="50"
+            endOffset="3544"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="120"
+            column="27"
+            startOffset="3720"
+            endLine="125"
+            endColumn="10"
+            endOffset="4033"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java"
+            line="127"
+            column="27"
+            startOffset="4062"
+            endLine="127"
+            endColumn="37"
+            endOffset="4072"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="506"
+            column="46"
+            startOffset="22681"
+            endLine="506"
+            endColumn="60"
+            endOffset="22695"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="532"
+            column="46"
+            startOffset="24096"
+            endLine="532"
+            endColumn="60"
+            endOffset="24110"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="559"
+            column="46"
+            startOffset="25564"
+            endLine="559"
+            endColumn="60"
+            endOffset="25578"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="588"
+            column="46"
+            startOffset="27088"
+            endLine="588"
+            endColumn="59"
+            endOffset="27101"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="592"
+            column="38"
+            startOffset="27258"
+            endLine="592"
+            endColumn="67"
+            endOffset="27287"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="593"
+            column="46"
+            startOffset="27340"
+            endLine="593"
+            endColumn="81"
+            endOffset="27375"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="593"
+            column="46"
+            startOffset="27340"
+            endLine="593"
+            endColumn="75"
+            endOffset="27369"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="595"
+            column="38"
+            startOffset="27479"
+            endLine="595"
+            endColumn="67"
+            endOffset="27508"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="596"
+            column="46"
+            startOffset="27561"
+            endLine="596"
+            endColumn="81"
+            endOffset="27596"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="596"
+            column="46"
+            startOffset="27561"
+            endLine="596"
+            endColumn="75"
+            endOffset="27590"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="598"
+            column="38"
+            startOffset="27700"
+            endLine="598"
+            endColumn="67"
+            endOffset="27729"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="599"
+            column="46"
+            startOffset="27782"
+            endLine="599"
+            endColumn="81"
+            endOffset="27817"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="599"
+            column="46"
+            startOffset="27782"
+            endLine="599"
+            endColumn="75"
+            endOffset="27811"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="617"
+            column="46"
+            startOffset="28724"
+            endLine="617"
+            endColumn="59"
+            endOffset="28737"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="621"
+            column="38"
+            startOffset="28894"
+            endLine="621"
+            endColumn="67"
+            endOffset="28923"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="622"
+            column="46"
+            startOffset="28976"
+            endLine="622"
+            endColumn="81"
+            endOffset="29011"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="622"
+            column="46"
+            startOffset="28976"
+            endLine="622"
+            endColumn="75"
+            endOffset="29005"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="624"
+            column="38"
+            startOffset="29115"
+            endLine="624"
+            endColumn="67"
+            endOffset="29144"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="625"
+            column="46"
+            startOffset="29197"
+            endLine="625"
+            endColumn="81"
+            endOffset="29232"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="625"
+            column="46"
+            startOffset="29197"
+            endLine="625"
+            endColumn="75"
+            endOffset="29226"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="627"
+            column="38"
+            startOffset="29336"
+            endLine="627"
+            endColumn="67"
+            endOffset="29365"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="628"
+            column="46"
+            startOffset="29418"
+            endLine="628"
+            endColumn="81"
+            endOffset="29453"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="628"
+            column="46"
+            startOffset="29418"
+            endLine="628"
+            endColumn="75"
+            endOffset="29447"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="646"
+            column="46"
+            startOffset="30360"
+            endLine="646"
+            endColumn="59"
+            endOffset="30373"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="650"
+            column="38"
+            startOffset="30530"
+            endLine="650"
+            endColumn="67"
+            endOffset="30559"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="651"
+            column="46"
+            startOffset="30612"
+            endLine="651"
+            endColumn="81"
+            endOffset="30647"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="651"
+            column="46"
+            startOffset="30612"
+            endLine="651"
+            endColumn="75"
+            endOffset="30641"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="653"
+            column="38"
+            startOffset="30751"
+            endLine="653"
+            endColumn="67"
+            endOffset="30780"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="654"
+            column="46"
+            startOffset="30833"
+            endLine="654"
+            endColumn="81"
+            endOffset="30868"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="654"
+            column="46"
+            startOffset="30833"
+            endLine="654"
+            endColumn="75"
+            endOffset="30862"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="656"
+            column="38"
+            startOffset="30972"
+            endLine="656"
+            endColumn="67"
+            endOffset="31001"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="657"
+            column="46"
+            startOffset="31054"
+            endLine="657"
+            endColumn="81"
+            endOffset="31089"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="657"
+            column="46"
+            startOffset="31054"
+            endLine="657"
+            endColumn="75"
+            endOffset="31083"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="701"
+            column="26"
+            startOffset="32876"
+            endLine="701"
+            endColumn="53"
+            endOffset="32903"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="702"
+            column="34"
+            startOffset="32944"
+            endLine="702"
+            endColumn="67"
+            endOffset="32977"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="702"
+            column="34"
+            startOffset="32944"
+            endLine="702"
+            endColumn="61"
+            endOffset="32971"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="704"
+            column="26"
+            startOffset="33055"
+            endLine="704"
+            endColumn="53"
+            endOffset="33082"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="705"
+            column="34"
+            startOffset="33123"
+            endLine="705"
+            endColumn="67"
+            endOffset="33156"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="705"
+            column="34"
+            startOffset="33123"
+            endLine="705"
+            endColumn="61"
+            endOffset="33150"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="707"
+            column="26"
+            startOffset="33234"
+            endLine="707"
+            endColumn="53"
+            endOffset="33261"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="708"
+            column="34"
+            startOffset="33302"
+            endLine="708"
+            endColumn="67"
+            endOffset="33335"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java"
+            line="708"
+            column="34"
+            startOffset="33302"
+            endLine="708"
+            endColumn="61"
+            endOffset="33329"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="290"
+            column="51"
+            startOffset="12887"
+            endLine="290"
+            endColumn="133"
+            endOffset="12969"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="291"
+            column="51"
+            startOffset="13022"
+            endLine="291"
+            endColumn="123"
+            endOffset="13094"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="307"
+            column="55"
+            startOffset="14015"
+            endLine="307"
+            endColumn="137"
+            endOffset="14097"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="308"
+            column="55"
+            startOffset="14154"
+            endLine="308"
+            endColumn="131"
+            endOffset="14230"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="316"
+            column="55"
+            startOffset="14706"
+            endLine="316"
+            endColumn="137"
+            endOffset="14788"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="317"
+            column="55"
+            startOffset="14845"
+            endLine="317"
+            endColumn="131"
+            endOffset="14921"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="532"
+            column="55"
+            startOffset="26095"
+            endLine="532"
+            endColumn="69"
+            endOffset="26109"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="558"
+            column="55"
+            startOffset="27609"
+            endLine="558"
+            endColumn="69"
+            endOffset="27623"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="585"
+            column="55"
+            startOffset="29176"
+            endLine="585"
+            endColumn="69"
+            endOffset="29190"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="614"
+            column="55"
+            startOffset="30817"
+            endLine="614"
+            endColumn="68"
+            endOffset="30830"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="618"
+            column="38"
+            startOffset="30996"
+            endLine="618"
+            endColumn="67"
+            endOffset="31025"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="619"
+            column="55"
+            startOffset="31087"
+            endLine="619"
+            endColumn="90"
+            endOffset="31122"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="619"
+            column="55"
+            startOffset="31087"
+            endLine="619"
+            endColumn="84"
+            endOffset="31116"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="621"
+            column="38"
+            startOffset="31235"
+            endLine="621"
+            endColumn="67"
+            endOffset="31264"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="622"
+            column="55"
+            startOffset="31326"
+            endLine="622"
+            endColumn="90"
+            endOffset="31361"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="622"
+            column="55"
+            startOffset="31326"
+            endLine="622"
+            endColumn="84"
+            endOffset="31355"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="624"
+            column="38"
+            startOffset="31474"
+            endLine="624"
+            endColumn="67"
+            endOffset="31503"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="625"
+            column="55"
+            startOffset="31565"
+            endLine="625"
+            endColumn="90"
+            endOffset="31600"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="625"
+            column="55"
+            startOffset="31565"
+            endLine="625"
+            endColumn="84"
+            endOffset="31594"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="643"
+            column="55"
+            startOffset="32570"
+            endLine="643"
+            endColumn="68"
+            endOffset="32583"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="647"
+            column="38"
+            startOffset="32749"
+            endLine="647"
+            endColumn="67"
+            endOffset="32778"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="648"
+            column="55"
+            startOffset="32840"
+            endLine="648"
+            endColumn="90"
+            endOffset="32875"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="648"
+            column="55"
+            startOffset="32840"
+            endLine="648"
+            endColumn="84"
+            endOffset="32869"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="650"
+            column="38"
+            startOffset="32988"
+            endLine="650"
+            endColumn="67"
+            endOffset="33017"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="651"
+            column="55"
+            startOffset="33079"
+            endLine="651"
+            endColumn="90"
+            endOffset="33114"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="651"
+            column="55"
+            startOffset="33079"
+            endLine="651"
+            endColumn="84"
+            endOffset="33108"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="653"
+            column="38"
+            startOffset="33227"
+            endLine="653"
+            endColumn="67"
+            endOffset="33256"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="654"
+            column="55"
+            startOffset="33318"
+            endLine="654"
+            endColumn="90"
+            endOffset="33353"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="654"
+            column="55"
+            startOffset="33318"
+            endLine="654"
+            endColumn="84"
+            endOffset="33347"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="672"
+            column="55"
+            startOffset="34323"
+            endLine="672"
+            endColumn="68"
+            endOffset="34336"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="676"
+            column="38"
+            startOffset="34502"
+            endLine="676"
+            endColumn="67"
+            endOffset="34531"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="677"
+            column="55"
+            startOffset="34593"
+            endLine="677"
+            endColumn="90"
+            endOffset="34628"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="677"
+            column="55"
+            startOffset="34593"
+            endLine="677"
+            endColumn="84"
+            endOffset="34622"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="679"
+            column="38"
+            startOffset="34741"
+            endLine="679"
+            endColumn="67"
+            endOffset="34770"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="680"
+            column="55"
+            startOffset="34832"
+            endLine="680"
+            endColumn="90"
+            endOffset="34867"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="680"
+            column="55"
+            startOffset="34832"
+            endLine="680"
+            endColumn="84"
+            endOffset="34861"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="682"
+            column="38"
+            startOffset="34980"
+            endLine="682"
+            endColumn="67"
+            endOffset="35009"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="683"
+            column="55"
+            startOffset="35071"
+            endLine="683"
+            endColumn="90"
+            endOffset="35106"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="683"
+            column="55"
+            startOffset="35071"
+            endLine="683"
+            endColumn="84"
+            endOffset="35100"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="727"
+            column="26"
+            startOffset="36965"
+            endLine="727"
+            endColumn="53"
+            endOffset="36992"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="728"
+            column="43"
+            startOffset="37042"
+            endLine="728"
+            endColumn="76"
+            endOffset="37075"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="728"
+            column="43"
+            startOffset="37042"
+            endLine="728"
+            endColumn="70"
+            endOffset="37069"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="730"
+            column="26"
+            startOffset="37162"
+            endLine="730"
+            endColumn="53"
+            endOffset="37189"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="731"
+            column="43"
+            startOffset="37239"
+            endLine="731"
+            endColumn="76"
+            endOffset="37272"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="731"
+            column="43"
+            startOffset="37239"
+            endLine="731"
+            endColumn="70"
+            endOffset="37266"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="733"
+            column="26"
+            startOffset="37359"
+            endLine="733"
+            endColumn="53"
+            endOffset="37386"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="734"
+            column="43"
+            startOffset="37436"
+            endLine="734"
+            endColumn="76"
+            endOffset="37469"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java"
+            line="734"
+            column="43"
+            startOffset="37436"
+            endLine="734"
+            endColumn="70"
+            endOffset="37463"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `SquareColorPicker` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="148"
+            column="20"
+            startOffset="4743"
+            endLine="148"
+            endColumn="32"
+            endOffset="4755"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="58"
+            column="24"
+            startOffset="1808"
+            endLine="58"
+            endColumn="35"
+            endOffset="1819"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="59"
+            column="18"
+            startOffset="1838"
+            endLine="59"
+            endColumn="50"
+            endOffset="1870"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="69"
+            column="24"
+            startOffset="2226"
+            endLine="69"
+            endColumn="122"
+            endOffset="2324"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="70"
+            column="32"
+            startOffset="2357"
+            endLine="70"
+            endColumn="101"
+            endOffset="2426"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="75"
+            column="19"
+            startOffset="2574"
+            endLine="75"
+            endColumn="110"
+            endOffset="2665"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="77"
+            column="26"
+            startOffset="2693"
+            endLine="77"
+            endColumn="45"
+            endOffset="2712"/>
+    </incident>
+
+    <incident
+        id="DrawAllocation"
+        severity="warning"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*javaDir*0}/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java"
+            line="88"
+            column="28"
+            startOffset="3225"
+            endLine="88"
+            endColumn="39"
+            endOffset="3236"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.databinding:databinding-runtime than 4.1.3 is available: 8.6.0">
+        <fix-replace
+            description="Change to 8.6.0"
+            family="Update versions"
+            oldString="4.1.3"
+            replacement="8.6.0"/>
+        <location
+            file="${:colorpickerlibs*projectDir}/build.gradle.kts"
+            line="45"
+            column="22"
+            startOffset="1152"
+            endLine="45"
+            endColumn="68"
+            endOffset="1198"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/img_2.png` in densityless folder">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/drawable/img_2.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/img_3.png` in densityless folder">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/drawable/img_3.png"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="125"
+            column="13"
+            startOffset="4618"
+            endLine="127"
+            endColumn="61"
+            endOffset="4743"
+            message="Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1246"
+            endLine="35"
+            endColumn="47"
+            endOffset="1280"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1314"
+            endLine="35"
+            endColumn="47"
+            endOffset="1348"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1288"
+            endLine="35"
+            endColumn="47"
+            endOffset="1322"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="125"
+            column="13"
+            startOffset="4618"
+            endLine="127"
+            endColumn="61"
+            endOffset="4743"
+            message="Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1556"
+            endLine="43"
+            endColumn="47"
+            endOffset="1586"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1624"
+            endLine="43"
+            endColumn="47"
+            endOffset="1654"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1598"
+            endLine="43"
+            endColumn="47"
+            endOffset="1628"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="125"
+            column="13"
+            startOffset="4618"
+            endLine="127"
+            endColumn="61"
+            endOffset="4743"
+            message="Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2454"
+            endLine="63"
+            endColumn="63"
+            endOffset="2496"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2522"
+            endLine="63"
+            endColumn="63"
+            endOffset="2564"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2496"
+            endLine="63"
+            endColumn="63"
+            endOffset="2538"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="136"
+            column="13"
+            startOffset="5001"
+            endLine="138"
+            endColumn="61"
+            endOffset="5126"
+            message="Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1246"
+            endLine="35"
+            endColumn="47"
+            endOffset="1280"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1314"
+            endLine="35"
+            endColumn="47"
+            endOffset="1348"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="35"
+            column="13"
+            startOffset="1288"
+            endLine="35"
+            endColumn="47"
+            endOffset="1322"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="136"
+            column="13"
+            startOffset="5001"
+            endLine="138"
+            endColumn="61"
+            endOffset="5126"
+            message="Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1556"
+            endLine="43"
+            endColumn="47"
+            endOffset="1586"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1624"
+            endLine="43"
+            endColumn="47"
+            endOffset="1654"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="43"
+            column="17"
+            startOffset="1598"
+            endLine="43"
+            endColumn="47"
+            endOffset="1628"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle"/>
+    </incident>
+
+    <incident
+        id="DuplicateIncludedIds"
+        severity="warning"
+        message="Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView]">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/color_picker_tab_view.xml"
+            line="136"
+            column="13"
+            startOffset="5001"
+            endLine="138"
+            endColumn="61"
+            endOffset="5126"
+            message="Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView]"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/ring_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2454"
+            endLine="63"
+            endColumn="63"
+            endOffset="2496"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/linear_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2522"
+            endLine="63"
+            endColumn="63"
+            endOffset="2564"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/layout/square_color_picker_view.xml"
+            line="63"
+            column="21"
+            startOffset="2496"
+            endLine="63"
+            endColumn="63"
+            endOffset="2538"
+            message="Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView"/>
+    </incident>
+
+</incidents>

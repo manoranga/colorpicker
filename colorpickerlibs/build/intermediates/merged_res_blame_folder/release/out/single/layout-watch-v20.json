@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.example.colorpickerlibs-appcompat-1.7.0-9:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.example.colorpickerlibs-appcompat-1.7.0-9:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

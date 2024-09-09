@@ -1,0 +1,888 @@
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:72: Warning: By convention, the custom view (RingColorPickerOuterCircle) and the declare-styleable (RingColorPicker) should have the same name (various editor features rely on this convention) [CustomViewStyleable]
+        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.RingColorPicker);
+                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "CustomViewStyleable":
+   The convention for custom views is to use a declare-styleable whose name
+   matches the custom view class name. The IDE relies on this convention such
+   that for example code completion can be offered for attributes in a custom
+   view in layout XML resource files.
+
+   (Similarly, layout parameter classes should use the suffix _Layout.)
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:301: Warning: The id R.id.rvItemContainer has already been looked up in this method; possible cut & paste error? [CutPasteId]
+            LinearLayout layout = (LinearLayout) itemView.findViewById(R.id.rvItemContainer);
+                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:276: First usage here
+
+   Explanation for issues of type "CutPasteId":
+   This lint check looks for cases where you have cut & pasted calls to
+   findViewById but have forgotten to update the R.id field. It's possible
+   that your code is simply (redundantly) looking up the field repeatedly, but
+   lint cannot distinguish that from a case where you for example want to
+   initialize fields prev and next and you cut & pasted
+   findViewById(R.id.prev) and forgot to update the second initialization to
+   R.id.next.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:592: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:593: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:595: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:596: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:598: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:599: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:621: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:622: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:624: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:625: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:627: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:628: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:650: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:651: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:653: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:654: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:656: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:657: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:701: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousHValue = String.format("%.1f", hsvH) + "'";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:702: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueH.setText(String.format("%.1f", hsvH) + "'");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:704: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousSValue = String.format("%.1f", hsvS) + "%";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:705: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueS.setText(String.format("%.1f", hsvS) + "%");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:707: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousLValue = String.format("%.1f", hsvL) + "%";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:708: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueL.setText(String.format("%.1f", hsvL) + "%");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:618: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:619: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:621: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:622: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:624: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:625: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:647: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:648: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:650: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:651: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:653: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:654: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:676: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousHValue = String.format("%.1f", colorH) + "'";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:677: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:679: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousSValue = String.format("%.1f", colorS) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:680: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:682: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    previousLValue = String.format("%.1f", colorL) + "%";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:683: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:727: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousHValue = String.format("%.1f", hsvH) + "'";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:728: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueHMinimized.setText(String.format("%.1f", hsvH) + "'");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:730: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousSValue = String.format("%.1f", hsvS) + "%";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:731: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueSMinimized.setText(String.format("%.1f", hsvS) + "%");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:733: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        previousLValue = String.format("%.1f", hsvL) + "%";
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:734: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        binding.tvValueLMinimized.setText(String.format("%.1f", hsvL) + "%");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.US) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:125: Warning: Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:125: Warning: Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:125: Warning: Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:136: Warning: Duplicate id @+id/colorPaletteRecyclerView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:63: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/colorPaletteRecyclerView
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:136: Warning: Duplicate id @+id/recentColorsView, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/recentColorsView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/recentColorsView
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:35: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/recentColorsView
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:136: Warning: Duplicate id @+id/tvColorTitle, defined or included multiple times in layout/color_picker_tab_view.xml: [layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle, layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle] [DuplicateIncludedIds]
+            <include
+            ^
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/ring_color_picker_view.xml defines @+id/tvColorTitle
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/linear_color_picker_view.xml defines @+id/tvColorTitle
+    /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml:43: Defined here, included via layout/color_picker_tab_view.xml => layout/square_color_picker_view.xml defines @+id/tvColorTitle
+
+   Explanation for issues of type "DuplicateIncludedIds":
+   It's okay for two independent layouts to use the same ids. However, if
+   layouts are combined with include tags, then the id's need to be unique
+   within any chain of included layouts, or Activity#findViewById() can return
+   an unexpected view.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build.gradle.kts:45: Warning: A newer version of androidx.databinding:databinding-runtime than 4.1.3 is available: 8.6.0 [GradleDependency]
+    implementation ("androidx.databinding:databinding-runtime:4.1.3")
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:58: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                                android:textSize="16dp">
+                                ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:89: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                                android:textSize="16dp">
+                                ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SpUsage":
+   When setting text sizes, you should normally use sp, or "scale-independent
+   pixels". This is like the dp unit, but it is also scaled by the user's font
+   size preference. It is recommend you use this unit when specifying font
+   sizes, so they will be adjusted for both the screen density and the user's
+   preference.
+
+   There are cases where you might need to use dp; typically this happens when
+   the text is in a container with a specific dp-size. This will prevent the
+   text from spilling outside the container. Note however that this means that
+   the user's font size settings are not respected, so consider adjusting the
+   layout itself to be more flexible.
+
+   https://developer.android.com/training/multiscreen/screendensities.html
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:290: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            binding.btnHSBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker_white_5dp));
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:291: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            binding.btnRGBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker));
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:307: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                binding.btnHSBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker_white_5dp));
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:308: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                binding.btnRGBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker_5dp));
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:316: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                binding.btnRGBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker_white_5dp));
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:317: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                binding.btnHSBMinimized.setBackground(context.getDrawable(R.drawable.all_round_conner_background_color_picker_5dp));
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompatLoadingForDrawables":
+   Use Compat loading of drawables
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/strings.xml:23: Warning: "Ok" is usually capitalized as "OK" [Typos]
+    <string name="OK">Ok</string>
+                      ^
+
+   Explanation for issues of type "Typos":
+   This check looks through the string definitions, and if it finds any words
+   that look like likely misspellings, they are flagged.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/MyDevice.java:192: Warning: Using getString to get device identifiers is not recommended [HardwareIds]
+  return Secure
+         ^
+
+   Explanation for issues of type "HardwareIds":
+   Using these device identifiers is not recommended other than for high value
+   fraud prevention and advanced telephony use-cases. For advertising
+   use-cases, use AdvertisingIdClient$Info#getId and for analytics, use
+   InstanceId#getId.
+
+   https://developer.android.com/training/articles/user-data-ids.html
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:112: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        Paint paint2 = new Paint();
+                       ~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:113: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        paint2 = new Paint(Paint.ANTI_ALIAS_FLAG);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:120: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        float[] corners = new float[]{
+                          ^
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:127: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        final Path path = new Path();
+                          ~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:58: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        Paint paint2 = new Paint();
+                       ~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:59: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        paint2 = new Paint(Paint.ANTI_ALIAS_FLAG);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:69: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        Shader dalam = new LinearGradient(0.f, 0.f, this.getMeasuredWidth(), 0.f, 0xffffffff, rgb, Shader.TileMode.CLAMP);
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:70: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        ComposeShader shader = new ComposeShader(squarPickerShader, dalam, PorterDuff.Mode.MULTIPLY);
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:75: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        bitmap2 = Bitmap.createScaledBitmap(bitmap2, this.getMeasuredWidth(), this.getMeasuredHeight(), true);
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:77: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+        Canvas canvas2 = new Canvas(bitmap2);
+                         ~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:88: Warning: Avoid object allocations during draw/layout operations (preallocate and reuse instead) [DrawAllocation]
+            Paint paint3 = new Paint();
+                           ~~~~~~~~~~~
+
+   Explanation for issues of type "DrawAllocation":
+   You should avoid allocating objects during a drawing or layout operation.
+   These are called frequently, so a smooth UI can be interrupted by garbage
+   collection pauses caused by the object allocations.
+
+   The way this is generally handled is to allocate the needed objects up
+   front and to reuse them for each drawing operation.
+
+   Some methods allocate memory on your behalf (such as Bitmap.create), and
+   these should be handled in the same way.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:73: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:79: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:116: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    notifyDataSetChanged();
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:130: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                        notifyDataSetChanged();
+                        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:143: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    notifyDataSetChanged();
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:205: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    notifyDataSetChanged();
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:344: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                notifyDataSetChanged();
+                ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:373: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPListRecyclerAdapter.java:379: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/adapters/CPRecyclerAdapter.java:54: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/defaultpallets/DefaultPalletsView.java:103: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                        cpRecyclerAdapter.notifyDataSetChanged();
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/defaultpallets/DefaultPalletsView.java:158: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    cpListRecyclerAdapterTab.notifyDataSetChanged();
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/MyDevice.java:276: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+  if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT_WATCH) {
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/managers/CPManager.java:17: Warning: Do not place Android context classes in static fields (static reference to CPManager which has field context pointing to Context); this is a memory leak [StaticFieldLeak]
+    private static CPManager instance;
+            ~~~~~~
+
+   Explanation for issues of type "StaticFieldLeak":
+   A static field will leak contexts.
+
+   Non-static inner classes have an implicit reference to their outer class.
+   If that outer class is for example a Fragment or Activity, then this
+   reference means that the long-running handler/loader/task will hold a
+   reference to the activity which prevents it from getting garbage
+   collected.
+
+   Similarly, direct field references to activities and fragments from these
+   longer running instances can cause leaks.
+
+   ViewModel classes should never point to Views or non-application Contexts.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:76: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+            <LinearLayout
+             ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:153: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/dialog_alert.xml:68: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+                <LinearLayout
+                 ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:35: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+
+   Explanation for issues of type "DisableBaselineAlignment":
+   When a LinearLayout is used to distribute the space proportionally between
+   nested layouts, the baseline alignment property should be turned off to
+   make the layout computation faster.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:78: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="1"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:134: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="1"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:186: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="1"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:238: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="8"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:290: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="1"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:342: Warning: Nested weights are bad for performance [NestedWeights]
+                            android:layout_weight="1"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:115: Warning: Nested weights are bad for performance [NestedWeights]
+                    android:layout_weight="1"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:133: Warning: Nested weights are bad for performance [NestedWeights]
+                        android:layout_weight="1"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:282: Warning: Nested weights are bad for performance [NestedWeights]
+                    android:layout_weight="1"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:300: Warning: Nested weights are bad for performance [NestedWeights]
+                        android:layout_weight="8"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NestedWeights":
+   Layout weights require a widget to be measured twice. When a LinearLayout
+   with non-zero weights is nested inside another LinearLayout with non-zero
+   weights, then the number of measurements increase exponentially.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_hsl_view.xml:11: Warning: This RelativeLayout layout or its FrameLayout parent is unnecessary [UselessParent]
+    <RelativeLayout
+     ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_squre_view.xml:11: Warning: This LinearLayout layout or its FrameLayout parent is unnecessary [UselessParent]
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:47: Warning: This LinearLayout layout or its LinearLayout parent is possibly unnecessary [UselessParent]
+                <LinearLayout
+                 ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:7: Warning: This FrameLayout layout or its FrameLayout parent is possibly unnecessary [UselessParent]
+    <FrameLayout
+     ~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:14: Warning: This LinearLayout layout or its FrameLayout parent is possibly unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:436: Warning: This RelativeLayout layout or its LinearLayout parent is possibly unnecessary [UselessParent]
+                <RelativeLayout
+                 ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_squre_view.xml:11: Warning: This namespace declaration is redundant [RedundantNamespace]
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantNamespace":
+   In Android XML documents, only specify the namespace on the root/document
+   element. Namespace declarations elsewhere in the document are typically
+   accidental leftovers from copy/pasting XML from other files or
+   documentation.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_squre_view.xml:11: Warning: Unused namespace declaration xmlns:android; already declared on the root element [UnusedNamespace]
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedNamespace":
+   Unused namespace declarations take up space and require processing that is
+   not necessary
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_2.png: Warning: Found bitmap drawable res/drawable/img_2.png in densityless folder [IconLocation]
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_3.png: Warning: Found bitmap drawable res/drawable/img_3.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/strings.xml:23: Warning: The standard Android way to capitalize Ok is "OK" (tip: use @android:string/ok instead) [ButtonCase]
+    <string name="OK">Ok</string>
+                      ~~
+
+   Explanation for issues of type "ButtonCase":
+   The standard capitalization for OK/Cancel dialogs is "OK" and "Cancel". To
+   ensure that your dialogs use the standard strings, you can use the resource
+   strings @android:string/ok and @android:string/cancel.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/ColorPickRing.java:111: Warning: Custom view ColorPickRing overrides onTouchEvent but not performClick [ClickableViewAccessibility]
+    public boolean onTouchEvent(MotionEvent event) {
+                   ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java:52: Warning: Custom view `DoubleClickEditText` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java:61: Warning: Custom view `DoubleClickEditText` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java:70: Warning: Custom view `DoubleClickEditText` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleClickEditText.java:79: Warning: Custom view `DoubleClickEditText` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java:47: Warning: Custom view `DoubleTapEditTextColorPicker` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java:55: Warning: Custom view `DoubleTapEditTextColorPicker` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java:63: Warning: Custom view `DoubleTapEditTextColorPicker` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/common/DoubleTapEditTextColorPicker.java:71: Warning: Custom view `DoubleTapEditTextColorPicker` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        this.setOnTouchListener(this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/ringcolorpicker/RingColorPickerOuterCircle.java:173: Warning: Custom view RingColorPickerOuterCircle overrides onTouchEvent but not performClick [ClickableViewAccessibility]
+    public boolean onTouchEvent(MotionEvent event) {
+                   ~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/squarecolorpikcer/SquareColorPicker.java:148: Warning: Custom view SquareColorPicker overrides onTouchEvent but not performClick [ClickableViewAccessibility]
+    public boolean onTouchEvent(MotionEvent event) {
+                   ~~~~~~~~~~~~
+
+   Explanation for issues of type "ClickableViewAccessibility":
+   If a View that overrides onTouchEvent or uses an OnTouchListener does not
+   also implement performClick and call it when clicks are detected, the View
+   may not handle accessibility actions properly. Logic handling the click
+   actions should ideally be placed in View#performClick as some accessibility
+   services invoke performClick when a click action should occur.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_hsl_view.xml:32: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:24: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:58: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:170: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:188: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:206: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml:224: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:56: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:64: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:86: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:106: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:124: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:142: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_item_color_palette.xml:11: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:506: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueH.setText(progress + "'");
+                                             ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:532: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueS.setText(progress + "%");
+                                             ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:559: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueL.setText(progress + "%");
+                                             ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:588: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueR.setText("" + progress);
+                                             ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:593: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:596: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:599: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:617: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueG.setText("" + progress);
+                                             ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:622: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:625: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:628: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:646: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueB.setText("" + progress);
+                                             ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:651: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueH.setText(String.format("%.1f", colorH) + "'");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:654: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueS.setText(String.format("%.1f", colorS) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:657: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueL.setText(String.format("%.1f", colorL) + "%");
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:702: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueH.setText(String.format("%.1f", hsvH) + "'");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:705: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueS.setText(String.format("%.1f", hsvS) + "%");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekBarsLinearColorPickerView.java:708: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueL.setText(String.format("%.1f", hsvL) + "%");
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:532: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueHMinimized.setText(progress + "'");
+                                                      ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:558: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueSMinimized.setText(progress + "%");
+                                                      ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:585: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueLMinimized.setText(progress + "%");
+                                                      ~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:614: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueRMinimized.setText("" + progress);
+                                                      ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:619: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:622: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:625: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:643: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueGMinimized.setText("" + progress);
+                                                      ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:648: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:651: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:654: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:672: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueBMinimized.setText("" + progress);
+                                                      ~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:677: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueHMinimized.setText(String.format("%.1f", colorH) + "'");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:680: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueSMinimized.setText(String.format("%.1f", colorS) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:683: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    binding.tvValueLMinimized.setText(String.format("%.1f", colorL) + "%");
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:728: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueHMinimized.setText(String.format("%.1f", hsvH) + "'");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:731: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueSMinimized.setText(String.format("%.1f", hsvS) + "%");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/java/com/example/colorpickerlibs/utils/seekbarscolorpicker/SeekbarViewMinimized.java:734: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvValueLMinimized.setText(String.format("%.1f", hsvL) + "%");
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:69: Warning: Hardcoded string "H", should use @string resource [HardcodedText]
+                            android:text="H"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:102: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:125: Warning: Hardcoded string "S", should use @string resource [HardcodedText]
+                            android:text="S"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:157: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:177: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:209: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:229: Warning: Hardcoded string "R", should use @string resource [HardcodedText]
+                            android:text="R"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:261: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:281: Warning: Hardcoded string "G", should use @string resource [HardcodedText]
+                            android:text="G"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:313: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:333: Warning: Hardcoded string "B", should use @string resource [HardcodedText]
+                            android:text="B"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:366: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                                android:text="L"
+                                ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:408: Warning: Hardcoded string "#", should use @string resource [HardcodedText]
+                        android:text="#"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:424: Warning: Hardcoded string "FFFFFF", should use @string resource [HardcodedText]
+                        android:text="FFFFFF"
+                        ~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:56: Warning: Hardcoded string "HSL", should use @string resource [HardcodedText]
+                                android:text="HSL"
+                                ~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:87: Warning: Hardcoded string "RGB", should use @string resource [HardcodedText]
+                                android:text="RGB"
+                                ~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:124: Warning: Hardcoded string "H", should use @string resource [HardcodedText]
+                        android:text="H"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:157: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:178: Warning: Hardcoded string "S", should use @string resource [HardcodedText]
+                        android:text="S"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:210: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:228: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                        android:text="L"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:260: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:291: Warning: Hardcoded string "R", should use @string resource [HardcodedText]
+                        android:text="R"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:323: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:341: Warning: Hardcoded string "G", should use @string resource [HardcodedText]
+                        android:text="G"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:373: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:391: Warning: Hardcoded string "B", should use @string resource [HardcodedText]
+                        android:text="B"
+                        ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:423: Warning: Hardcoded string "L", should use @string resource [HardcodedText]
+                            android:text="L"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:471: Warning: Hardcoded string "#", should use @string resource [HardcodedText]
+                            android:text="#"
+                            ~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml:487: Warning: Hardcoded string "FFFFFF", should use @string resource [HardcodedText]
+                            android:text="FFFFFF"
+                            ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml:29: Warning: @id/paletteTitle can overlap LinearLayout-3 if @id/paletteTitle grows due to localized text expansion [RelativeOverlap]
+                <com.example.colorpickerlibs.utils.common.DoubleClickEditText
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml:384: Warning: TextView-1 can overlap @id/etHexadecimalContainer if @string/HEXA_DECIMAL grows due to localized text expansion [RelativeOverlap]
+                <TextView
+                 ~~~~~~~~
+
+   Explanation for issues of type "RelativeOverlap":
+   If relative layout has text or button items aligned to left and right sides
+   they can overlap each other due to localized text expansion unless they
+   have mutual constraints like toEndOf/toStartOf.
+
+0 errors, 210 warnings

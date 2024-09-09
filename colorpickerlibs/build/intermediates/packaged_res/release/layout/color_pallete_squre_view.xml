@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_left_right"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/colorPickerViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="5dp">
+
+            <com.example.colorpickerlibs.utils.squarecolorpikcer.SquareColorPicker
+                android:id="@+id/colorPickerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/hueSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_left_right"
+                android:layout_gravity="center"
+                android:maxHeight="6dp"
+                android:minHeight="6dp"
+                android:padding="15dp"
+                android:thumb="@drawable/seekbar_thumb"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+com.example.colorpickerlibs-databinding-runtime-4.1.3-0 /Users/prabodharanasinghe/.gradle/caches/transforms-3/093c302372b9f1a96dd7ce8d1d76fb7f/transformed/databinding-runtime-4.1.3/res
+com.example.colorpickerlibs-transition-1.5.0-1 /Users/prabodharanasinghe/.gradle/caches/transforms-3/12852b08cad17431e90adff8738aac6d/transformed/transition-1.5.0/res
+com.example.colorpickerlibs-core-ktx-1.13.0-2 /Users/prabodharanasinghe/.gradle/caches/transforms-3/13c346060fe7d02804cde9fcdb9142c9/transformed/core-ktx-1.13.0/res
+com.example.colorpickerlibs-fragment-1.5.4-3 /Users/prabodharanasinghe/.gradle/caches/transforms-3/1852a71d59b406663a09fef9300164c3/transformed/fragment-1.5.4/res
+com.example.colorpickerlibs-viewpager2-1.0.0-4 /Users/prabodharanasinghe/.gradle/caches/transforms-3/2868c6dedcc78dd2b55cae718a65f19e/transformed/viewpager2-1.0.0/res
+com.example.colorpickerlibs-drawerlayout-1.1.1-5 /Users/prabodharanasinghe/.gradle/caches/transforms-3/2af3cb339e7ba881e9ba66649606c06e/transformed/drawerlayout-1.1.1/res
+com.example.colorpickerlibs-lifecycle-process-2.6.2-6 /Users/prabodharanasinghe/.gradle/caches/transforms-3/319d67fc786b7a63b92232643d421c46/transformed/lifecycle-process-2.6.2/res
+com.example.colorpickerlibs-recyclerview-1.1.0-7 /Users/prabodharanasinghe/.gradle/caches/transforms-3/3546725936c0f39241b0f11dbddae49c/transformed/recyclerview-1.1.0/res
+com.example.colorpickerlibs-startup-runtime-1.1.1-8 /Users/prabodharanasinghe/.gradle/caches/transforms-3/35c44a6062800d6208cce566c14e2f2e/transformed/startup-runtime-1.1.1/res
+com.example.colorpickerlibs-appcompat-1.7.0-9 /Users/prabodharanasinghe/.gradle/caches/transforms-3/49838db19224d1a5e9ac6dd7d2852e59/transformed/appcompat-1.7.0/res
+com.example.colorpickerlibs-emoji2-views-helper-1.3.0-10 /Users/prabodharanasinghe/.gradle/caches/transforms-3/4e1a79407b7e0af79165ada92ec2be82/transformed/emoji2-views-helper-1.3.0/res
+com.example.colorpickerlibs-core-runtime-2.2.0-11 /Users/prabodharanasinghe/.gradle/caches/transforms-3/5d56c3fe997e8f211d91cb0fb8f3183c/transformed/core-runtime-2.2.0/res
+com.example.colorpickerlibs-cardview-1.0.0-12 /Users/prabodharanasinghe/.gradle/caches/transforms-3/620f982873d66a3a41a47a9d4dd46bfa/transformed/cardview-1.0.0/res
+com.example.colorpickerlibs-profileinstaller-1.3.1-13 /Users/prabodharanasinghe/.gradle/caches/transforms-3/71c7a76b4d2a4076c19e7ab7505c00d0/transformed/profileinstaller-1.3.1/res
+com.example.colorpickerlibs-annotation-experimental-1.4.0-14 /Users/prabodharanasinghe/.gradle/caches/transforms-3/7d7b2c347ef48e653e2a7010515a6c69/transformed/annotation-experimental-1.4.0/res
+com.example.colorpickerlibs-lifecycle-livedata-2.6.2-15 /Users/prabodharanasinghe/.gradle/caches/transforms-3/7f88be69369666b4c4e860ba6bafee60/transformed/lifecycle-livedata-2.6.2/res
+com.example.colorpickerlibs-lifecycle-viewmodel-savedstate-2.6.2-16 /Users/prabodharanasinghe/.gradle/caches/transforms-3/89dcf065501b639c580f9fab3b37236f/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
+com.example.colorpickerlibs-emoji2-1.3.0-17 /Users/prabodharanasinghe/.gradle/caches/transforms-3/a33b7207dc4ed1b1a15fb90b85d992ba/transformed/emoji2-1.3.0/res
+com.example.colorpickerlibs-lifecycle-livedata-core-2.6.2-18 /Users/prabodharanasinghe/.gradle/caches/transforms-3/ae356e9d0069b25561d0e58ca6f21678/transformed/lifecycle-livedata-core-2.6.2/res
+com.example.colorpickerlibs-savedstate-1.2.1-19 /Users/prabodharanasinghe/.gradle/caches/transforms-3/b791a40a35adcfb1e3c6118d5ce3a6bb/transformed/savedstate-1.2.1/res
+com.example.colorpickerlibs-lifecycle-viewmodel-2.6.2-20 /Users/prabodharanasinghe/.gradle/caches/transforms-3/b8b6f3711659c802aee8a67279186572/transformed/lifecycle-viewmodel-2.6.2/res
+com.example.colorpickerlibs-coordinatorlayout-1.1.0-21 /Users/prabodharanasinghe/.gradle/caches/transforms-3/ba4e03b7195bc841e25616ba303111be/transformed/coordinatorlayout-1.1.0/res
+com.example.colorpickerlibs-constraintlayout-2.0.1-22 /Users/prabodharanasinghe/.gradle/caches/transforms-3/bdd045fd20d9f53d86e9f53d3dad613b/transformed/constraintlayout-2.0.1/res
+com.example.colorpickerlibs-activity-1.8.0-23 /Users/prabodharanasinghe/.gradle/caches/transforms-3/c7c9b1d5c5480490c683a682d04f4cd3/transformed/activity-1.8.0/res
+com.example.colorpickerlibs-lifecycle-runtime-2.6.2-24 /Users/prabodharanasinghe/.gradle/caches/transforms-3/d366ae6851310c5008de5ba8943ceb54/transformed/lifecycle-runtime-2.6.2/res
+com.example.colorpickerlibs-core-1.13.0-25 /Users/prabodharanasinghe/.gradle/caches/transforms-3/e296cb8eed3a13438de40c3713e56851/transformed/core-1.13.0/res
+com.example.colorpickerlibs-appcompat-resources-1.7.0-26 /Users/prabodharanasinghe/.gradle/caches/transforms-3/eab34024bef6497d85958c1e33713dee/transformed/appcompat-resources-1.7.0/res
+com.example.colorpickerlibs-material-1.12.0-27 /Users/prabodharanasinghe/.gradle/caches/transforms-3/eb27657ec2f12fbd017e83bdbbf1f20f/transformed/material-1.12.0/res
+com.example.colorpickerlibs-pngs-28 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/generated/res/pngs/release
+com.example.colorpickerlibs-resValues-29 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/generated/res/resValues/release
+com.example.colorpickerlibs-mergeReleaseResources-30 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.colorpickerlibs-mergeReleaseResources-31 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.colorpickerlibs-merged_res-32 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/intermediates/merged_res/release
+com.example.colorpickerlibs-main-33 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res
+com.example.colorpickerlibs-release-34 /Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/release/res

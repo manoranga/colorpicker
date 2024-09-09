@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/helvetica_neue_medium_italic.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/helvetica_neue_medium_italic.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/museo_sans_rounded_500.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/museo_sans_rounded_500.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/helvetica_neue_medium.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/helvetica_neue_medium.ttf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/aktiv_grotesk_bold.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/aktiv_grotesk_bold.ttf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/aktiv_grotesk_regular.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/aktiv_grotesk_regular.ttf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/aktiv_grotesk_medium.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/aktiv_grotesk_medium.ttf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/helvetica_neue_bold_italic.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/helvetica_neue_bold_italic.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/helvetica_neue_bold.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/helvetica_neue_bold.ttf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/helvetica_neue_regular_italic.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/helvetica_neue_regular_italic.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/museo_sans_rounded_900.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/museo_sans_rounded_900.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/museo_sans_rounded_700.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/museo_sans_rounded_700.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/museo_sans_rounded_300.otf",
+        "source": "com.example.colorpickerlibs-main-32:/font/museo_sans_rounded_300.otf"
+    },
+    {
+        "merged": "com.example.colorpickerlibs-merged_res-31:/font/aktiv_grotesk_bold_new.ttf",
+        "source": "com.example.colorpickerlibs-main-32:/font/aktiv_grotesk_bold_new.ttf"
+    }
+]

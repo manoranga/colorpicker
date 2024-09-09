@@ -60,7 +60,8 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+//            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+            artifact("$buildDir/outputs/aar/colorpickerlibs-release.aar")
 
             groupId = "com.example"
             artifactId = "colorpickerlibs"

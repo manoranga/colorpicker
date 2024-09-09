@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res"><file name="skp_color_picker_synced" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/skp_color_picker_synced.xml" qualifiers="" type="drawable"/><file name="skp_color_picker_delete" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/skp_color_picker_delete.xml" qualifiers="" type="drawable"/><file name="img_2" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_2.png" qualifiers="" type="drawable"/><file name="all_round_conner_background_color_palettes" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_background_color_palettes.xml" qualifiers="" type="drawable"/><file name="img_3" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_3.png" qualifiers="" type="drawable"/><file name="all_round_conner_background_color_picker_white_5dp" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_background_color_picker_white_5dp.xml" qualifiers="" type="drawable"/><file name="skp_color_picker_set_default" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/skp_color_picker_set_default.xml" qualifiers="" type="drawable"/><file name="color_picker_drag_icon" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/color_picker_drag_icon.xml" qualifiers="" type="drawable"/><file name="img_btn_4" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_btn_4.xml" qualifiers="" type="drawable"/><file name="img_btn_1" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_btn_1.xml" qualifiers="" type="drawable"/><file name="seekbar_thumb" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/seekbar_thumb.xml" qualifiers="" type="drawable"/><file name="img_btn_3" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_btn_3.xml" qualifiers="" type="drawable"/><file name="white_rounded_black_stroke_bg" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/white_rounded_black_stroke_bg.xml" qualifiers="" type="drawable"/><file name="img_btn_2" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_btn_2.xml" qualifiers="" type="drawable"/><file name="color_picker_close" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/color_picker_close.xml" qualifiers="" type="drawable"/><file name="custom_ripple" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/custom_ripple.xml" qualifiers="" type="drawable"/><file name="img_close_small" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/img_close_small.xml" qualifiers="" type="drawable"/><file name="skp_color_picker_sync" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/skp_color_picker_sync.xml" qualifiers="" type="drawable"/><file name="all_round_conner_background_color_picker" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_background_color_picker.xml" qualifiers="" type="drawable"/><file name="all_round_conner_white_color_picker_10dp" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_white_color_picker_10dp.xml" qualifiers="" type="drawable"/><file name="all_round_conner_background_color_picker_5dp" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_background_color_picker_5dp.xml" qualifiers="" type="drawable"/><file name="all_round_conner_background_color_picker_10dp" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/all_round_conner_background_color_picker_10dp.xml" qualifiers="" type="drawable"/><file name="skp_color_picker_default" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/skp_color_picker_default.xml" qualifiers="" type="drawable"/><file name="color_picker_add" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/drawable/color_picker_add.xml" qualifiers="" type="drawable"/><file name="color_pallete_squre_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_squre_view.xml" qualifiers="" type="layout"/><file name="dialog_alert" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/dialog_alert.xml" qualifiers="" type="layout"/><file name="color_pallete_hsl_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_pallete_hsl_view.xml" qualifiers="" type="layout"/><file name="linear_color_picker_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/linear_color_picker_view.xml" qualifiers="" type="layout"/><file name="color_picker_circle_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_circle_view.xml" qualifiers="" type="layout"/><file name="color_picker_tab_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/color_picker_tab_view.xml" qualifiers="" type="layout"/><file name="square_color_picker_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/square_color_picker_view.xml" qualifiers="" type="layout"/><file name="ring_color_picker_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/ring_color_picker_view.xml" qualifiers="" type="layout"/><file name="seekbars_picker" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker.xml" qualifiers="" type="layout"/><file name="rv_item_color_palette" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_item_color_palette.xml" qualifiers="" type="layout"/><file name="seekbars_picker_minimize" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/seekbars_picker_minimize.xml" qualifiers="" type="layout"/><file name="default_pallets_view" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/default_pallets_view.xml" qualifiers="" type="layout"/><file name="rv_color_palette_lits" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/layout/rv_color_palette_lits.xml" qualifiers="" type="layout"/><file path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/attrs_colorpicker.xml" qualifiers=""><declare-styleable name="ColorPickerView">
+    <attr format="reference" name="palette"/>
+    <attr format="reference" name="selector"/>
+    <attr format="float" name="alpha_selector"/>
+    <attr format="float" name="alpha_flag"/>
+    <attr format="string" name="preferenceName"/>
+    <attr format="enum" name="actionMode">
+      <enum name="always" value="0"/>
+      <enum name="last" value="1"/>
+    </attr>
+  </declare-styleable><declare-styleable name="AlphaSlideBar">
+    <attr format="reference" name="selector_AlphaSlideBar"/>
+    <attr format="color" name="borderColor_AlphaSlideBar"/>
+    <attr format="integer" name="borderSize_AlphaSlideBar"/>
+  </declare-styleable><declare-styleable name="BrightnessSlideBar">
+    <attr format="reference" name="selector_BrightnessSlider"/>
+    <attr format="color" name="borderColor_BrightnessSlider"/>
+    <attr format="integer" name="borderSize_BrightnessSlider"/>
+  </declare-styleable><declare-styleable name="AlphaTileView">
+    <attr format="integer" name="tileSize"/>
+    <attr format="color" name="tileOddColor"/>
+    <attr format="color" name="tileEvenColor"/>
+  </declare-styleable><declare-styleable name="ColorPicker"><attr format="color" name="handleStrokeColor"/><attr format="float" name="hue"/><attr format="float" name="saturation"/><attr format="float" name="value"/></declare-styleable><declare-styleable name="RingColorPicker"><attr format="dimension" name="ringWidth"/><attr format="dimension" name="gapWidth"/></declare-styleable><dimen name="default_handleSize">32dp</dimen><dimen name="default_padding">16dp</dimen><dimen name="default_touchSize">48dp</dimen><style name="HSVLinearColorPicker">
+    <item name="android:padding">5dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0dp</item>
+  </style></file><file path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/colors.xml" qualifiers=""><color name="background_color">#F5F5F5</color><color name="drag_view_color">#C4C4C6</color><color name="color_picker_background">#18191A</color><color name="bottom_icon">#666666</color><color name="magic_view_bottom">#F5F5F5</color><color name="themColor">#1874EE</color><color name="color_pallets_title">#333333</color><color name="color_pallets_minimize_button_color">#C4C4C6</color><color name="themColor1">#deab1f</color><color name="ripple_1">#aaaaaa</color><color name="ripple_2">#8B8B8B</color><color name="selected_blue">#58A1FF</color><color name="colorWhite">#FFFFFF</color><color name="colorAsh">#EBEBEB</color><color name="black">#000000</color></file><file path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/dimens.xml" qualifiers=""><dimen name="margin_left_right">8dp</dimen><dimen name="color_picker_top_bar_height">32dp</dimen><dimen name="cp_seekbar_thumb_size_tab_view_2">18dp</dimen><dimen name="cp_seekbar_thumb_size_tab_start_tacking">26dp</dimen><dimen name="cp_seekbar_thumb_size_tab">16dp</dimen><dimen name="cp_color_wheel_thumb_size_tab">20dp</dimen><dimen name="cp_seekbar_thumb_size_phone">20dp</dimen><dimen name="cp_color_wheel_thumb_size_phone">22dp</dimen><dimen name="margin_bottom_seek_bars_tab">24dp</dimen></file><file path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/styles.xml" qualifiers=""><style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        
+    </style><style name="PopupDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style><style name="PopupDialogThemeDimBG" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        
+    </style><style name="DeleteDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        
+    </style><style name="PopupDialogWithBGTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        
+    </style><style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="text_size_8">
+        <item name="android:textSize">8sp</item>
+    </style><style name="text_size_9">
+        <item name="android:textSize">9sp</item>
+    </style><style name="text_size_10">
+        <item name="android:textSize">10sp</item>
+    </style><style name="text_size_11">
+        <item name="android:textSize">11sp</item>
+    </style><style name="text_size_12">
+        <item name="android:textSize">12sp</item>
+    </style><style name="text_size_13">
+        <item name="android:textSize">13sp</item>
+    </style><style name="text_size_14">
+        <item name="android:textSize">14sp</item>
+    </style><style name="text_size_15">
+        <item name="android:textSize">15sp</item>
+    </style><style name="text_size_16">
+        <item name="android:textSize">16sp</item>
+    </style><style name="text_size_17">
+        <item name="android:textSize">17sp</item>
+    </style><style name="text_size_18">
+        <item name="android:textSize">18sp</item>
+    </style><style name="text_size_20">
+        <item name="android:textSize">20sp</item>
+    </style><style name="text_size_23">
+        <item name="android:textSize">23sp</item>
+    </style><style name="text_size_25">
+        <item name="android:textSize">25sp</item>
+    </style><style name="text_size_28">
+        <item name="android:textSize">28sp</item>
+    </style><style name="text_size_30">
+        <item name="android:textSize">30sp</item>
+    </style><style name="text_size_40">
+        <item name="android:textSize">40sp</item>
+    </style><style name="text_size_60">
+        <item name="android:textSize">60sp</item>
+    </style><style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style><style name="InfoTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/museo_sans_rounded_700</item>
+        <item name="android:textColor">@color/black</item>
+    </style><style name="InfoSubTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/museo_sans_rounded_500</item>
+        <item name="android:textColor">@color/black</item>
+    </style><style name="InfoParagraph">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/museo_sans_rounded_500</item>
+        <item name="android:textColor">@color/black</item>
+    </style><style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        
+        <item name="colorControlActivated">#A440DD</item>
+
+        
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        
+        <item name="android:colorForeground">#42221f1f</item>
+    </style><style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">normal</item>
+    </style><style name="CommunityTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+    </style><style name="CDTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">17sp</item>
+    </style><style name="DrawingCourseUserProfileTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style><style name="SignInTextTile">
+        <item name="android:textSize">24sp</item>
+    </style></file><file path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/values/strings.xml" qualifiers=""><string name="DARK_AND_EARTHY">Dark &amp; Earthy</string><string name="SKIN">Skin</string><string name="WARM">Warm</string><string name="COOL_BLUE">Cool Blue</string><string name="REFRESHING">Refreshing</string><string name="WATERY_BLUE">Watery Blue-Greens</string><string name="OUTDOORS_NATURE">Outdoors &amp; Nature</string><string name="SHADES_OF_PURPLE">Shades of Purple</string><string name="SHADES_OF_GREY">Shades of Grey</string><string name="BRIGHT_ORANGE_COLOR">Bright Orange Color</string><string name="USA_COLOR">USA Color</string><string name="RECENT_COLORS">Recent Colors</string><string name="CANT_DELETE_PALETTE_MESSAGE">Cannot delete default palette</string><string name="UNTITLED_PALETTE">Untitled Palette</string><string name="HEXA_DECIMAL">Hexadecimal</string><string name="DELETE_PALETTE_MESSAGE">Are you sure you want to delete the color palette?</string><string name="YES">YES</string><string name="NO">No</string><string name="OK">Ok</string><string name="GRADIENTES_TEXT">Gradients</string><string name="SOLID_COLORS_TEXT">Solid Colors</string><string name="DD_PALETTES_TEXT">DD Palettes</string><string name="MY_PALETTES">My Palettes</string><string name="DEFAULT_TEXT">Default</string><string name="SET_DEFAULT_TEXT">Set Default</string><string name="CANNOT_DELETE_DEFAULT_PALETTE">Cannot delete default palette</string><string name="WARNING">Warning</string></file><file name="helvetica_neue_regular_italic" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/helvetica_neue_regular_italic.otf" qualifiers="" type="font"/><file name="aktiv_grotesk_regular" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/aktiv_grotesk_regular.ttf" qualifiers="" type="font"/><file name="museo_sans_rounded_300" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/museo_sans_rounded_300.otf" qualifiers="" type="font"/><file name="museo_sans_rounded_500" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/museo_sans_rounded_500.otf" qualifiers="" type="font"/><file name="aktiv_grotesk_bold" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/aktiv_grotesk_bold.ttf" qualifiers="" type="font"/><file name="helvetica_neue_bold" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/helvetica_neue_bold.ttf" qualifiers="" type="font"/><file name="helvetica_neue_medium" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/helvetica_neue_medium.ttf" qualifiers="" type="font"/><file name="museo_sans_rounded_700" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/museo_sans_rounded_700.otf" qualifiers="" type="font"/><file name="museo_sans_rounded_900" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/museo_sans_rounded_900.otf" qualifiers="" type="font"/><file name="helvetica_neue_bold_italic" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/helvetica_neue_bold_italic.otf" qualifiers="" type="font"/><file name="aktiv_grotesk_medium" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/aktiv_grotesk_medium.ttf" qualifiers="" type="font"/><file name="helvetica_neue_medium_italic" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/helvetica_neue_medium_italic.otf" qualifiers="" type="font"/><file name="aktiv_grotesk_bold_new" path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/main/res/font/aktiv_grotesk_bold_new.ttf" qualifiers="" type="font"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpicker/colorpickerlibs/build/generated/res/resValues/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BrightnessSlideBar">
+    <attr format="reference" name="selector_BrightnessSlider"/>
+    <attr format="color" name="borderColor_BrightnessSlider"/>
+    <attr format="integer" name="borderSize_BrightnessSlider"/>
+  </declare-styleable><declare-styleable name="ColorPicker"><attr format="color" name="handleStrokeColor"/><attr format="float" name="hue"/><attr format="float" name="saturation"/><attr format="float" name="value"/></declare-styleable><declare-styleable name="AlphaSlideBar">
+    <attr format="reference" name="selector_AlphaSlideBar"/>
+    <attr format="color" name="borderColor_AlphaSlideBar"/>
+    <attr format="integer" name="borderSize_AlphaSlideBar"/>
+  </declare-styleable><declare-styleable name="RingColorPicker"><attr format="dimension" name="ringWidth"/><attr format="dimension" name="gapWidth"/></declare-styleable><declare-styleable name="AlphaTileView">
+    <attr format="integer" name="tileSize"/>
+    <attr format="color" name="tileOddColor"/>
+    <attr format="color" name="tileEvenColor"/>
+  </declare-styleable><declare-styleable name="ColorPickerView">
+    <attr format="reference" name="palette"/>
+    <attr format="reference" name="selector"/>
+    <attr format="float" name="alpha_selector"/>
+    <attr format="float" name="alpha_flag"/>
+    <attr format="string" name="preferenceName"/>
+    <attr format="enum" name="actionMode">
+      <enum name="always" value="0"/>
+      <enum name="last" value="1"/>
+    </attr>
+  </declare-styleable></configuration></mergedItems></merger>
