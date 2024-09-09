@@ -6,3 +6,10 @@ before_install:
 # jitpack.yml
 install:
   - ./gradlew :colorpickerlibs:clean :colorpickerlibs:assembleRelease
+
+# Ensure the artifact is properly located
+build:
+  artifactPaths:
+    - colorpickerlibs/build/outputs/aar/colorpickerlibs-release.aar
+  # Also include POM file if you have custom Maven publishing setup
+  # - colorpickerlibs/build/publications/release/pom-default.xml
