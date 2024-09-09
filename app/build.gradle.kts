@@ -3,6 +3,15 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        create("release") {
+            storeFile =
+                file("/Users/prabodharanasinghe/Documents/My Android Projects Updated/colorpickerkeyfinal")
+            storePassword = "Prabodha@123"
+            keyAlias = "Prabodha@123"
+            keyPassword = "Prabodha@123"
+        }
+    }
     namespace = "com.example.colorpicker"
     compileSdk = 34
 
@@ -23,6 +32,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
