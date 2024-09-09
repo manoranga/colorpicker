@@ -63,9 +63,9 @@ publishing {
 //            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
             artifact("$buildDir/outputs/aar/colorpickerlibs-release.aar")
 
-            groupId = "com.example"
-            artifactId = "colorpickerlibs"
-            version = "1.2.6"
+            groupId = "com.github.manoranga"
+            artifactId = "colorpicker"
+            version = "1.2.7"
         }
     }
 }
