@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("maven-publish")
 }
 
 android {
@@ -42,4 +43,16 @@ dependencies {
 
     implementation("com.google.code.gson:gson:2.11.0")
     implementation ("androidx.databinding:databinding-runtime:4.1.3")
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+
+            groupId = "com.example"
+            artifactId = "colorpickerlibs"
+            version = "1.1.0"
+        }
+    }
 }

@@ -13,6 +13,7 @@ import com.example.colorpickerlibs.models.ColorModel;
 import com.example.colorpickerlibs.utils.interfaces.LoggingUserColorPalettesSyncAndDeleteListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
     private ColorPickerTabView colorPickerTab;
@@ -28,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         pickedClor = findViewById(R.id.pickedClor);
 
         pickedClor.setOnClickListener(view -> {
-            colorPickerTab.setViewWidthAndHeight(2560, 1600,true);
+            colorPickerTab.setViewWidthAndHeight(2560, 1600, true);
         });
 
-        colorPickerTab.setViewWidthAndHeight(2560, 1600,false);
+        colorPickerTab.setViewWidthAndHeight(2560, 1600, true);
         int currentColor = Color.parseColor("#dbc486");
         colorPickerTab.setSelectedColorInit(currentColor, color -> {
             pickedClor.setBackgroundColor(color);
