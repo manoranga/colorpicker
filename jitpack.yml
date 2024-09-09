@@ -3,6 +3,6 @@ jdk:
   - openjdk17
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
+# jitpack.yml
 install:
-  - FILE="colorpickerlibs-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.manoranga -DartifactId=colorpicker -Dversion=1.2.2 -Dpackaging=aar -DgeneratePom=true
+  - ./gradlew :colorpickerlibs:clean :colorpickerlibs:assembleRelease

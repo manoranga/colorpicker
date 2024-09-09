@@ -1217,6 +1217,20 @@
     </incident>
 
     <incident
+        id="ButtonCase"
+        severity="warning"
+        message="The standard Android way to capitalize Ok is &quot;OK&quot; (tip: use `@android:string/ok` instead)">
+        <location
+            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="23"
+            column="23"
+            startOffset="1120"
+            endLine="23"
+            endColumn="25"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
         id="Typos"
         severity="warning"
         message="&quot;Ok&quot; is usually capitalized as &quot;OK&quot;">
@@ -1233,20 +1247,6 @@
             startOffset="1120"
             endLine="23"
             endColumn="23"
-            endOffset="1122"/>
-    </incident>
-
-    <incident
-        id="ButtonCase"
-        severity="warning"
-        message="The standard Android way to capitalize Ok is &quot;OK&quot; (tip: use `@android:string/ok` instead)">
-        <location
-            file="${:colorpickerlibs*debug*sourceProvider*0*resDir*0}/values/strings.xml"
-            line="23"
-            column="23"
-            startOffset="1120"
-            endLine="23"
-            endColumn="25"
             endOffset="1122"/>
     </incident>
 

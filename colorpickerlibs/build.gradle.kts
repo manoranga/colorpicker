@@ -65,7 +65,7 @@ publishing {
 
             groupId = "com.example"
             artifactId = "colorpickerlibs"
-            version = "1.2.1"
+            version = "1.2.6"
         }
     }
 }
