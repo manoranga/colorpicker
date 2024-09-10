@@ -65,7 +65,26 @@ publishing {
 
             groupId = "com.github.manoranga"
             artifactId = "colorpicker"
-            version = "1.2.7"
+            version = "1.2.9"
         }
     }
+        repositories {
+        mavenLocal()
+    }
 }
+
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId = 'com.github.geek-atif'
+//            artifactId = 'com-atifqamar-customtoast'
+//            version = "1.0"
+//            pom {
+//                description = 'First release'
+//            }
+//        }
+//    }
+//    repositories {
+//        mavenLocal()
+//    }
+//}

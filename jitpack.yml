@@ -3,13 +3,7 @@ jdk:
   - openjdk17
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
-# jitpack.yml
 install:
-  - ./gradlew :colorpickerlibs:clean :colorpickerlibs:assembleRelease
-
-# Ensure the artifact is properly located
-build:
-  artifactPaths:
-    - colorpickerlibs/build/outputs/aar/colorpickerlibs-release.aar
-  # Also include POM file if you have custom Maven publishing setup
-  # - colorpickerlibs/build/publications/release/pom-default.xml
+  - FILE="-Dfile=colorpikcerlibs-release.aar" #com-atifqamar-customtoast.aar
+  - mvn install:install-file $FILE -DgroupId=com.github.manoranga -DartifactId=colorpicker -Dversion=1.2.9 -Dpackaging=aar -DgeneratePom=true
+  #com.github.geek-atif                      #com-atifqamar-customtoast  #1.0
